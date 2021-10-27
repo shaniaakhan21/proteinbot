@@ -1,0 +1,424 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein BOT </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/fonts/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fonts/fontawesome.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <script src="https://kit.fontawesome.com/a6c23371f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #007bff;">
+    <header>
+        <div class="container-fluid header-top" style="padding: 20px 15px;">
+            <div class="row" id="row-head">
+                <div class="col-lg-3 col-md-4 col-2">
+                    <div class="mobile-menu hidden-md-up">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="social-class hidden-sm-down">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4 col-7">
+                    <div class="logo-wrapper">
+                        <a href="index.html"><img src="img/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-3">
+                    <div class="phone hidden-sm-down">
+                        <p><i class="fas fa-phone fa-rotate-90" aria-hidden="true"></i> +49(0)69 959 325 048</p>
+                    </div>
+                    <div id="sm-sc"class="social-class hidden-md-up">
+                        <ul class="icons-sm">
+                            <li><a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Naviagtion-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" id="hamburger"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
+                    <ul class="navbar-nav mc-auto mb-2 mb-lg-0" id="nav-ul">
+                        <li class="nav-item">
+                            <a id="nav-link" class="nav-link " aria-current="page" href="#machine">Machine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-link"  class="nav-link" href="#shakes">Shakes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-link"  class="nav-link" href="#row-02">Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-link" class="nav-link " href="#connectivity">Connectivity</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="gyms.html" id="nav-link" class="nav-link ">Gyms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="supplement.html" id="nav-link"  class="nav-link ">Supplement Companies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav-link" class="nav-link " href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--- Navigation and header ends-->
+    </header>
+    <section class="row_01">
+        <div class="top-row r2" id="top-row" style="background-image: url(img/gym-r1-bg.jpg);">
+            <div class="container">
+                <div class="row-01">
+                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                        <h2 id="h2" >bottom line is the <span>proteinBOT</span> makes your gym money!</h2>
+                        <p><strong>The proteinBOT is a definitive gym magnet. With its customisation of flavours, formulas and potencies the proteinBOT attracts a wide range of customers from beginners to advanced pros. </strong></p>
+                        <p>Add to this, the gym’s ability to set shake prices to maximise the local marketplace and the customer’s ability to choose from a vast array of flavours and shake formulas the proteinBOT creates maximum penetration and profit time and time again.</p>
+                        <div class="button-wrapper">
+                            <a href="index.html#contact" class="btn btn-trans scroll">Order Now</a>
+                            <a href="pdf/PB_Cat.pdf" target="_blank" class="btn btn-trans">Download Catalog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+    </section>
+
+    <section class="row_02 h-row2-v2" id="row-02" style="height: 200px;      padding-bottom: 344px;   padding-top: 150px;">
+        <div class="container">
+            <div class="row-label" style="top: 50%;">
+                <p>Fact <span>/ revenue</span></p>
+            </div>
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <h2>the proteinBOT when placed in a typical gym environment <strong>increased protein and shake sales by 200% over 3 months.</strong> Sales continued to increase with customized flavors and formulations.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="machine" class="row_14" style="background-image: url(img/row14-bg.jpg);">
+        <div class="container">
+            <div class="row-label row-label-grey">
+                <p>Machine <span>/ what can it do for you</span></p>
+            </div>
+            <div class="hr14-wrapper">
+                <div class="hr14-inner">
+                    <div class="hr14-text-item hr14-text-title" id="first-inner">
+                        <h2><span>it does</span> everything</h2>
+                        <h4>we will work with you to take your vision to reality to matter how far you want to go. From custom flavors to full gym branding our vast resources can conquer any request.</h4>
+                    </div>
+
+                    <div class="hr14-text-item">
+                        <h5>Maximum Turnover</h5>
+                        <p>Strike when the iron is hot. That’s the principle we live by. It couldn’t get bigger and better than the gym floor itself. proteinBOT being a gym magnet, catches the attention of thousands of onlookers on the gym floor like no other. Every single individual is there in the gym for a reason and proteinBOT takes advantage of the situation driving them to try something new that would help them to attain their fitness goals. Spending a fraction of what one would spend on a month’s supply definitely penetrates the consumer market and results in maximum turnover.</p>
+                    </div>
+                </div>
+
+                <div class="hr14-inner">
+                    <div class="hr14-text-item">
+                        <h5>Add Value to your Existing Customers</h5>
+                        <p>Existing customers continue to look forward to new and limited edition “regional” flavours and enhancements to their existing formulas in order to keep them ahead of the competition. proteinBOT makes it happen right there where it matters the most. Not only they’ll be the first ones to try out new products in new flavours they’ve never heard of, if they like it, they’ll be hooked to them, forever. Also, it’s easier for them to pay a fraction of amount on daily basis instead of committing to a months or even a quarters supply for significant higher amount and then having to live with the same flavour and potency. </p>
+                    </div>
+
+                    <div class="hr14-text-item" > 
+                        <h5>Reduces Staff Costs</h5>
+                        <p>High degree of automation guarantees virtually manless operation 365/24/7. Once connected to internet, remote monitoring of several data statistics over cloud computing server makes it a truly rewarding experience. </p>
+                    </div>
+                </div>
+
+                <div class="hr14-inner" id="unbelieve">
+                    <div class="hr14-text-item">
+                        <h5>Unbelievably Low Prices on Huge Selection of Ingredients</h5>
+                        <p>Plant to machine concept makes sure that the cost of the instant powdered premixes are kept to minimum while offering maximum profit margins to the gym owners. Our own state of the art manufacturing facility can custom produce any customised powder in agglomerated form, specifically designed to perform in these machines, in various flavours and potencies. </p>
+                    </div>
+
+                    <div class="hr14-text-item">
+                        <h5>Turnkey Installations and Super Fast Setup</h5>
+                        <p>Technological advancement should not scare anyone. Afterall, proteinBOT is designed and built around you. Upon successful order, we create the proper configuration for your demands and we customize the machine with the graphics and accessories you want before organizing the transport of your proteinBOT to your facility. Our technicians will come in your premises to install your customized proteinBOT machine and get the business going within couple of of hours. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+     
+    <section class="row_15" style="background-image: url(img/row15-bg.jpg);">
+        <div class="container">
+            <div class="h-row15-wrapper">
+                <div class="row">
+                    <div class="col-lg-4 hidden-md-down">
+                            <div class="row15-left">
+                                <img src="img/machine4.png">
+                            </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="row15-center text-center">
+                            <h2><span>easily</span>  affordable</h2>
+                            <h4>we offer financing at as <strong>low as $499/month</strong> and flexible terms as we understand the cash flow situations of fitness studios and gyms.</h4>
+                            <p>No gym or supplement company is too big or small to harvest the unique advantages of this technological marvel. Turn your dreams into reality by contacting us today on how we can turbocharge your existing business around. </p>
+                            <p><strong>Don’t limit your earning potential by forcing your clients to shop online or retail stores when you can have them shop right there where it matters the most, i.e. gym floor. </strong></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-6 hidden-lg-up">
+                            <div class="row15-left">
+                                <img src="img/machine4.png">
+                            </div>
+                    </div>
+              
+                    <div class="col-lg-4 col-md-6 col-6">
+                        <div class="row15-right">
+                            <img src="img/machine4.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="row_16" style="background-image: url(img/row16-bg.jpg);">
+        <div class="container">
+            <div class="row-label row-label-grey">
+                <p>Machine <span>/ anything is possible</span></p>
+            </div>
+            <div class="hr16-wrapper">
+
+                <div class="hr16-inner">
+                    <div class="hr16-text-item hr16-text-title hidden-lg-up">
+                        <h2><span>infinite</span> customization</h2>
+                        <h4>we will work with you to take your vision to reality to matter how far you want to go. From custom flavors to full gym branding our vast resources can conquer any request.</h4>
+                    </div>
+
+                    <div class="hr16-text-item">
+                        <h5>Personalized Promotions</h5>
+                        <p>Do you want to throw a birthday surprise to your existing member? Maybe top up couple of complimentary protein shakes for the chosen ones. You can always create a customised promotion for individual members who deserved to be rewarded in their special days with eye catching graphics and topping up their membership cards with additional shakes, free of cost.</p>
+                    </div>
+
+                    <div class="hr16-text-item">
+                        <h5>Gyms Virtual Brand</h5>
+                        <p>Are you a gym owner and ever though about creating your own brand but don’t have resources and money for the same? proteinBOT lets you create a virtual brand with eye popping 3D rendered graphics on the high definition screen so that your customers know everything about the product they are dealing with including the awesome packaging and supplement facts. The best thing about this is everything is up and ready for business before being there physically.</p>
+                    </div>
+                </div>
+
+                <div class="hr16-inner">
+                    <div class="hr16-text-item">
+                        <h5>Custom Flavors & Formulations</h5>
+                        <p>proteinBOT can house over 1000 different unique product formulations based on 8 unique ingredients. With over 50 different lip smacking flavours and endless permutations and combinations, proteinBOT can be setup instantly with any product formulation, flavour and graphics of your choice to suit everybody’s needs. Any formulation can be enabled or disabled remotely with the click of a button. </p>
+                    </div>
+
+                    <div class="hr16-text-item">
+                        <h5>Custom Wrapped Machines and user interface</h5>
+                        <p>We speak your local language and drape in your colours. You can graphically customize your proteinBOT machine and put your company colours, graphics and logo in order to really transform it into your personal proteinBOT machine. Depending on the products that you want to supply, we can customise and create an optimal user interface and configuration for your business. For the most demanding customers we can suggest several embellishments for the machine to make it captivating and really special. </p>
+                    </div>
+                </div>
+
+                <div class="hr16-inner">
+                    <div class="hr16-text-item hr16-text-title hidden-md-down">
+                        <h2><span>infinite</span> customization</h2>
+                        <h4>we will work with you to take your vision to reality to matter how far you want to go. From custom flavors to full gym branding our vast resources can conquer any request.</h4>
+                    </div>
+                    <div class="machine5-wrapper">
+                        <img src="img/machine5.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="row_05 hidden-lg-up" style="background-image: url(img/row5-bg.jpg);">
+        <div class="container">
+            <div class="row-label row-label-grey" id="row05-label">
+                <p>Machine<span>/ colors</span></p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md text-center">
+                    <h2><span>light</span>or<span>dark</span></h2>
+                    <h4>Available in wåhite, black or go completely custom for as little as €499 / month.</h4>
+                    <div class="machine-2-wrapper">
+                        <img src="img/machines2.png" alt="machine">
+                        <div class="row h-row5-text">
+                            <div class="col-lg-8 col-md-12">
+                                <p>You can have our most advanced version of proteinBOT up and running in your fitness studio for as little as €499 a month. Attractive financing options are available. </p>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <a href="#contact" class="btn btn-trans scroll">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shakes" class="row_17">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6" style="background-image: url(img/row17-bg-left.jpg);">
+                    <div class="h-row17-left h-row17-inner">
+                        <div class="row-label">
+                            <p>Shakes <span>/ benefits</span></p>
+                        </div>
+
+                        <h2><span>low protein</span> prices</h2>
+                        <h4>we will match anyone in the industry on raw material costs. You won’t be able to find a better deal than us.</h4>
+                        <p>Our own state of the art manufacturing facility can custom produce any customised powder in agglomerated form, specifically designed to perform in these machines, in various flavours and potencies. Our robust supply chain and over 20 years of combined experience, expertise and contacts ensure that not only we have access to technical know-how of most intricate of blends, we can also offer extremely competitive pricing for the same for you to save time and start making money, right away. </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" style="background-image: url(img/row17-bg-right.jpg);">
+                    <div class="h-row17-right h-row17-inner">
+                        <h2><span>preloaded</span> shake profiles</h2>
+                        <h4>with 8 preloaded most popular shake blends can turn it on and let it do its thing.</h4>
+                        <p>To kickstart your performance enhancing and physique altering goals, we have preloaded proteinBOT with eight of most popular muscle building, fat loss, detox, multivitamin, weight gaining, recovery, VO2 max, anaerobic/aerobic threshold boosting formulas to take guesswork out of the equation. Now every customer, whether novice or professional, with a single click can enjoy most popular formulas on the market in lip smacking flavours. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="row_07" style="background-image: url(img/row7-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-12  text-center">
+                    <div class="row-label">
+                        <p>Shakes<span>/ flavors</span></p>
+                    </div>
+                    <h2><span>unbelievable</span>flavors</h2>
+                    <h4><strong>Once you start you won’t be able to stop. Own your shake game!</strong><br/> We provide over 50 lip smacking flavours across all segments of functional food beverages such as dairy proteins, plant proteins, amino acids, vitamins & minerals.</h4>
+                </div>
+                <div class="col-md-12 text-center">
+                    <img src="img/row7-image.jpg" alt="ingredients" class="hidden-md-down"/>
+                    <img src="img/row7-image-mobile.jpg" alt="ingredients" class="hidden-lg-up"/>
+                    <p>Our forward-thinking flavor innovation, valuable consumer insights, cutting-edge flavour technology and a collection of natural flavor extracts provide your customers an authentic and original tasting beverages and will keep your customers coming back for more. With 50 different flavours to choose from, your toughest decision lies in choosing your favorite one.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="row_08" style="background-image: url(img/row8-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="row-label row-label-grey">
+                <p>Shakes <span>/ formulations</span></p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 col-md-12">
+                    <div class="h-row8-inner">
+                        <h2><span>pro</span> certified</h2>
+                        <h4>Guaranteed competition formulations for the professional and amature bodybuilder that requires that next level nutritional accuracy.</h4>
+                        <p>For the nutritional supplementation at the highest levels, proteinBOT is preloaded with 4 of the German IFBB Pro Ronny Rockel’s favorite muscle building, fat loss, recovery and detox and Swiss WBBF Pro Julia Stecher’s top of the line body toning, body shaping, vegan and detox shakes. Nutritional accuracy at the highest level. Delivered. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="connectivity" class="row_09" style="background-image: url(img/row9-bg.png);">
+         <div class="container">
+             <div class="row">
+                <div class="row-label">
+                    <p>Connectivity <span>/ wristbands</span></p>
+                </div>
+                <div class="col-lg-4 offset-lg-8 col-md-12">
+                    <div class="h-row9-inner">
+                        <h2><span>wearable</span> body metrics</h2>
+                        <h4>RFID connectivity to gym passes takes your integration of the customer to the next level. </h4>
+                        <h4>A single chip enabled wristband could be your gateway to complete gym and proteinBOT FitApp membership.</h4>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+    
+    <section class="row_10" style="background-image: url(img/row10-bg.png);">
+        <div class="container">
+            <div class="row">
+                <div class="row-label row-label-black">
+                    <p>Connectivity <span>/ mobile app</span></p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 col-md-12">
+                    <div class="h-row10-inner">
+                        <h2><span>fit app</span> integration</h2>
+                        <h4>Complete branded ecosystem connectivity and tracking for pre ordering shakes, macro tracking and training logging.</h4>
+                        <p>proteinBOT FitApp™ comes with a huge graphical of preloaded exercise routines, diet plans and specific nutritional shakes, each having a unique user code which can be ordered with a click of a button, without having to go to the machine. Entire history regarding shakes consumed and workout logs can be downloaded stretching back to 365 days. Tracking your progress couldn’t get any easier than this!</p>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <section class="row_13" style="background-image: url(img/footer-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 offset-lg-2 col-md-3 offset-md-1">
+                    <div class="h-row13-left">
+                        <img src="img/machine3.png">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-8">
+                    <div class="h-row13-right">
+                        <h2>order your <span>protein BOT</span></h2>
+                        <h4>and step into the future of on demand nutrition!</h4>
+
+                        <div class="order-buttons">
+                            <a href="#contact" class="btn btn-black scroll">Order Now</a> 
+                            <a href="pdf/PB_Cat.pdf" target="_blank" class="btn btn-black" id="btn-cat">Download Catalog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 footer-copyright">
+                    <p>2017 &copy; Musclestadt Sporternährung GmbH . All Rights Reserved . Engineered in Germany</p>
+                </div>
+                <div class="col-md-2 footer-logo">
+                    <a href="index.php"><img src="img/footer-logo.png"></a>
+                </div>
+                <div class="col-md-5 footer-social">
+                    <ul>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
